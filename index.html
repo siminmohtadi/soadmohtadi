@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simin Mohtadi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <!-- DESKTOP NAV -->
+    <nav id="desktop-nav">
+        <div class="logo">Soad Mohtadi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <nav id="hamburger-nav">
+        <div class="logo">Simin Mohtadi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png"
+            alt="simin'profile">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hi, i'm</p>
+            <h1>Simin Mohtadi</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <p class="section__text__p3">And Graphic Designer</p>
+            <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/resume-example.pdf')"
+                >
+                  Download CV
+                  </button>
+
+                  <button
+                  class="btn btn-color-1"
+                  onclick="location.href='./#contact'"
+                >
+                  Contact Info
+                  </button>
+            </div>
+            <div id="social-container">
+                <img
+                 src="./assets/linkedin.png"
+                 alt="linkedinprofile"
+                 class="icon"
+                 onclick="location.href='https://www.linkedin.com/in/simin-mohtadi/'"
+                />
+                <img
+                 src="./assets/github.png"
+                 alt="githubprofile"
+                 class="icon"
+                 onclick="location.href='https://github.com/siminmohtadi'"
+                />
+            </div>
+        </div>
+    </section>
+   
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <br>
+        
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                         <img
+                         src="./assets/experience.png"
+                         alt="icon"
+                         class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p><b>+2 years </b><br />Frontend Developer <small><b>2022-Now</b></small></p>
+                        <br>
+                        <p><b>+11 years</b> <br />Graphic Designer <small><b>2012-Now</b></small></p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                         src="./assets/education.png"
+                         alt="education icon"
+                         class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>Bachelor of Science in Software Engineering   <small><b>2008-2012</b></small></p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                         src="./assets/certificate.png"
+                         alt="education icon"
+                         class="icon"
+                        />
+                        <h3>Certificates</h3>
+                        
+                        CS50w: Web Programming with Python and JavaScript  <small><b>2024</b></small>
+                        <button class="credential-btn"><a
+                            href="https://certificates.cs50.io/f5b2e585-e225-4482-8d36-fe58d9d179e0.pdf?size=letter">See Credential</button>
+                    </a>
+                    <br><br>
+                    
+                        CS50x: Principles of Computer Science & Programming  <small><b>2023</b></small> 
+                        <button class="credential-btn"><a
+                            href="https://certificates.cs50.io/e52b17cf-62ff-4cef-8bdc-6992e5970e0d.pdf?size=letter">See Credential</button>
+                    </a>
+                    </div>
+                </div>
+                
+                <div class="text-container">
+                    I'm a web developer with a passion for creativity. 
+                    I started my career as a graphic designer, and that 
+                    artistic background now influences my approach to 
+                    web development. <br> I love blending design principles 
+                    with coding to create visually appealing and functional
+                     websites. Let's connect and explore the exciting 
+                     possibilities where design meets development!
+                </div>
+                
+            </div>
+        
+        <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <br>
+        <div class="expeience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Graphic Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>Branding</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>Logo</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>Social</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>Print</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>Videography</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            class="icon"
+                            alt=""
+                            />
+                            <div>
+                                <h3>Presentation</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            
+        <div class="about-containers">
+            <!-- PROJECT ONE -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png"
+                    class="project-img"
+                    alt="">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https:/github.com/siminmohtadi'"
+                    >
+                    GitHub
+                    </button>
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https:/github.com/siminmohtadi'"
+                    >
+                    Live Demo
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT TWO -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png"
+                    class="project-img"
+                    alt="">
+                </div>
+                <h2 class="experience-sub-title project-title">
+                    Project Two
+                </h2>
+                <div class="btn-container">
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://www.behance.net/gallery/87311765/logo-design-samples'"
+                    >
+                    Behnace
+                    </button>
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('./assets/Branding.pdf')"
+                    >
+                    View pdf
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT THREE -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.png"
+                    class="project-img"
+                    alt="">
+                </div>
+                <h2 class="experience-sub-title project-title">
+                    Project Three</h2>
+                <div class="btn-container">
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/me50/siminmohtadi/tree/409087749c62e6bc80bcf286dac3f95e065d38f2'"
+                    >
+                    GitHub
+                    </button>
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https:/github.com/siminmohtadi'"
+                    >
+                    Live Demo
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+
+
+            <div class="contact-info-container">
+                <img
+                src="./assets/email.png"
+                class="icon contact-icon email-icon "
+                alt="mail-icon"
+                />
+                <p>
+                    <a href="mailto:simin.mohtadi@gmail.com">
+                        simin.mohtadi@gmail.com
+                    </a>
+                </p>
+            </div>
+
+
+            <div class="contact-info-container">
+                <img
+                src="./assets/linkedin.png"
+                class="icon contact-icon"
+                alt="linkedin-icon"
+                />
+                <p>
+                    <a href="https://www.linkedin.com/in/simin-mohtadi/">
+                        LinkedIn
+                    </a>
+                </p>
+            </div>
+
+            <div class="contact-info-container">
+                <img
+                src="./assets/behance.png"
+                class="icon contact-icon"
+                alt="linkedin-icon"
+                />
+                <p>
+                    <a href="https://www.behance.net/siminmohtadi">
+                        Behance
+                    </a>
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Simin Mohtadi. All Rights Reserved. </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
